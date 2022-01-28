@@ -58,7 +58,7 @@ const crazyDiff = math.abs(a, 19)
         return crazyDiffValue
     }
     
-    let result1 = crazyDiff(3, 19)
+    let result1 = crazyDiff(3 * 19)
     console.log(result1)
     
 
