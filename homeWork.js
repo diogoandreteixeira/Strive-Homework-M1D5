@@ -133,7 +133,11 @@ upperFirst('Strive')
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
 
-/* WRITE YOUR ANSWER HERE */
+const cutString = function(aString1) {
+    console.log(aString1.slice(1,-1)) // using .slice to remove first and last character 
+}
+cutString('Strive')
+
 
 /* EXERCISE 10
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
