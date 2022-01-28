@@ -24,8 +24,18 @@ console.log(result)
  Write a function called "crazySum" which receives two integers as parameters.
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
+ 
+const crazySum = function(a, b) {
+    if ((a === b)) {
+        return (a + b) * 3
+    } else {
+        let r = a + b
+        return r
+    }
+}
 
-/* WRITE YOUR ANSWER HERE */
+let resultOfCrazySum = crazySum(34, 34)
+console.log(resultOfCrazySum)
 
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
