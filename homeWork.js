@@ -100,7 +100,6 @@ function check3and7(numbers, number) { // add second argument
         multiples.push(numbers[i]); // add the current multiple found to the multiples array
       }
     }
-  
     return multiples;
   }
   
@@ -117,6 +116,7 @@ function reverseString(string) {
     }
     console.log(newString)
 }
+
 reverseString('Strive');
 
 
