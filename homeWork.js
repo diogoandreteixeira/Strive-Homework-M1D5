@@ -15,7 +15,7 @@ ASSIGNMENT RULES
 function area (a, b) {
     let areaCalculated = a * b
     return areaCalculated
-}
+} 
 
 let result = area(3, 7)
 console.log(result)
